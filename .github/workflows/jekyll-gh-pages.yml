@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Anayely 💖</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffd6e8, #fff1f7);
+      font-family: 'Georgia', serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .carta {
+      background: white;
+      padding: 40px;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    h1 {
+      color: #e75480;
+    }
+    p {
+      color: #444;
+      line-height: 1.7;
+      font-size: 17px;
+      text-align: justify;
+    }
+    .boton {
+      margin-top: 30px;
+    }
+    button {
+      background: #e75480;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.1);
+      background: #d94370;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="carta">
+    <h1>Para Anayely 💖</h1>
+
+    <p>
+      Amor mío,<br><br>
+      No sé muy bien por dónde empezar, porque cuando se trata de ti las palabras a veces se me quedan cortas.
+      Desde que llegaste a mi vida, muchas cosas cambiaron sin que yo me diera cuenta: mis días son más bonitos,
+      mis sonrisas más sinceras y mi corazón más tranquilo. Contigo aprendí que el amor no solo se dice,
+      se siente en los pequeños detalles, en las miradas, en las risas compartidas y en el simple hecho de saber
+      que estás ahí.
+      <br><br>
+      Hoy quiero decirte algo que nace desde lo más profundo de mi corazón. Este San Valentín no quiero que sea
+      solo una fecha más, quiero que sea un recuerdo, un momento nuestro, una celebración de lo que somos y de
+      todo lo que estamos construyendo juntos. Quiero compartir contigo risas, abrazos largos, miradas cómplices
+      y ese amor tan bonito que poco a poco ha ido creciendo entre nosotros.
+      <br><br>
+      Con todo el cariño, la ilusión y el amor que siento por ti, quiero preguntarte algo muy especial:
+    </p>
+
+    <h2>¿Quieres ser mi San Valentín? 💘</h2>
+
+    <div class="boton">
+      <button onclick="alert('💖 Ella dijo que SÍ 💖')">
+        SÍ 💕
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+      
